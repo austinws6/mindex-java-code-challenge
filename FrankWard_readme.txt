@@ -1,7 +1,9 @@
 Mindex Java Code Challenge
 ==========================
-*Note that if an employee does not have any reports under them, the value is null for the directReports field in Employee.
+NOTES:
+    - If an employee does not have any reports under them, the value is null for the directReports field in Employee.
     - I also left DEBUG log statements in so you could see how things were flowing while running endpoints.
+    - compensation_database.json is empty to start with, only "[]" before start of running endpoints.
 
 
 TASK 1:  ReportingStructure
