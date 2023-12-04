@@ -138,7 +138,7 @@ public class CompensationServiceImpl implements CompensationService {
         LOG.debug("Reading compensation for employee with id [{}]", id);
 
         Employee employee = employeeRepository.findByEmployeeId(id);
-        Compensation compensation = new Compensation();
+        Compensation compensation = null;
 
         if (employee == null) {
             throw new RuntimeException("Invalid employeeId: " + id);
